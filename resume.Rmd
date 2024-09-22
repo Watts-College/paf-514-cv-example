@@ -19,7 +19,7 @@ library(tidyverse)
 library(glue)
 
 # Set this to true to have links turned into footnotes at the end of the document
-PDF_EXPORT <- FALSE
+PDF_EXPORT <- TRUE
 
 # Holds all the links that were inserted for placement at the end
 links <- c()
@@ -47,7 +47,7 @@ Aside
 ================================================================================
 
 
-![logo](https://upload.wikimedia.org/wikipedia/commons/6/6a/Sparky_the_Sun_Devil_vs_USC_2011.jpg){width=50%}
+![logo](256px-Sparky_the_Sun_Devil_vs_USC_2011.jpg){width=50%}
 
 Contact {#contact}
 --------------------------------------------------------------------------------
@@ -94,7 +94,7 @@ All projects available at `github.com/Watts-College/<name>`
 More info {#more-info}
 --------------------------------------------------------------------------------
 
-See full CV at https://watts-college.github.io/paf-514-cv-example for more complete list of positions and publications.
+See full CV at https://watts-college.github.io/paf-514-cv-example/cv.html for more complete list of positions and publications.
 
 
 Disclaimer {#disclaimer}
